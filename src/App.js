@@ -7,6 +7,7 @@ import ConditionalRendering from './components/ConditionalRendering';
 import ElementRendering from './components/ElementRendering';
 import {EventsES6, EventsES7} from './components/Events';
 import Father from './components/ComponentComunication';
+import LifeCycle from './components/LifeCycle';
 
 const App = () => {
   return (
@@ -38,6 +39,8 @@ const App = () => {
           <EventsES7/>
           <hr/>
           <Father />
+          <hr/>
+          <LifeCycle />
         </section>
       </header>
     </div>
