@@ -8,6 +8,7 @@ import ElementRendering from './components/ElementRendering';
 import {EventsES6, EventsES7} from './components/Events';
 import Father from './components/ComponentComunication';
 import LifeCycle from './components/LifeCycle';
+import AjaxApis from './components/AjaxApis';
 
 const App = () => {
   return (
@@ -41,6 +42,8 @@ const App = () => {
           <Father />
           <hr/>
           <LifeCycle />
+          <hr/>
+          <AjaxApis />
         </section>
       </header>
     </div>
