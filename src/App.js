@@ -9,6 +9,7 @@ import {EventsES6, EventsES7} from './components/Events';
 import Father from './components/ComponentComunication';
 import LifeCycle from './components/LifeCycle';
 import AjaxApis from './components/AjaxApis';
+import HooksCounter from './components/HooksCounter';
 
 const App = () => {
   return (
@@ -44,6 +45,8 @@ const App = () => {
           <LifeCycle />
           <hr/>
           <AjaxApis />
+          <hr/>
+          <HooksCounter />
         </section>
       </header>
     </div>
