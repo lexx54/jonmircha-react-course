@@ -10,6 +10,8 @@ import Father from './components/ComponentComunication';
 import LifeCycle from './components/LifeCycle';
 import AjaxApis from './components/AjaxApis';
 import HooksCounter from './components/HooksCounter';
+import ScroolHook from './components/ScroolHook';
+import ClockHook from './components/ClockHook';
 
 const App = () => {
   return (
@@ -47,6 +49,10 @@ const App = () => {
           <AjaxApis />
           <hr/>
           <HooksCounter />
+          <hr/>
+          <ScroolHook />
+          <hr/>
+          <ClockHook />
         </section>
       </header>
     </div>
